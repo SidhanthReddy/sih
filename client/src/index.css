@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/index.css or src/App.css */
+body {
+  background-color: #ffffff; /* White background */
+}
+.gradient-text {
+  background: linear-gradient(to top right, #1e40af, #6d28d9); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
