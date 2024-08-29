@@ -1,3 +1,6 @@
+Cloning  a repository:
+  git clone <link>
+  go to the sub folders and run npm install in each of them
 Merging Changes to your branch from Another:
   git fetch origin(assuming you have already initialized origin)
   git checkout your-branch
